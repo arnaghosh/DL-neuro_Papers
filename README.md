@@ -12,3 +12,6 @@ Collection of resources dealing with confluence of DL and neuro
 + [Learning Representation from EEG with Deep RCNN](https://arxiv.org/pdf/1511.06448.pdf) - ICLR 2016 paper. Projet EEG electrode position from 3D space to 2D space and then form images with red = alpha channel activity, green = beta channel activity, blue = gamma channel activity. RCNN on this data to classify coginitive-load during task. DeconvNet to visualize filters learnt.
 
 + [Learning Robust Features using Deep Learning for Automatic Seizure Detection](https://arxiv.org/pdf/1608.00220.pdf) - Joelle Pineau paper. Uses the 3D to 2D projection of electrodes and then RCNN to predict seizure. Occluded image analysis to look at regions of image which affect decision of network. 
+
+## Datasets:-
+http://bnci-horizon-2020.eu/database/data-sets
