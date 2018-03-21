@@ -13,5 +13,7 @@ Collection of resources dealing with confluence of DL and neuro
 
 + [Learning Robust Features using Deep Learning for Automatic Seizure Detection](https://arxiv.org/pdf/1608.00220.pdf) - Joelle Pineau paper. Uses the 3D to 2D projection of electrodes and then RCNN to predict seizure. Occluded image analysis to look at regions of image which affect decision of network. 
 
++ [Joint Optimization of Algorithmic Suites for EEG Analysis](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6944253) - EMBC 2014 paper. Uses backprop to jointly optimize spatial projection matrix (initialized with regular CSP), temporal projection matrix and a classifier. Results on BCI II and III datasets. 
+
 ## Datasets:-
 http://bnci-horizon-2020.eu/database/data-sets
