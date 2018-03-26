@@ -15,5 +15,7 @@ Collection of resources dealing with confluence of DL and neuro
 
 + [Joint Optimization of Algorithmic Suites for EEG Analysis](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6944253) - EMBC 2014 paper. Uses backprop to jointly optimize spatial projection matrix (initialized with regular CSP), temporal projection matrix and a classifier. Results on BCI II and III datasets. 
 
++ [Deep Feature Learning for EEG recordings](https://arxiv.org/pdf/1511.04306.pdf) - Sebastian Stober paper. Classification of listened music tracks from EEG in OpenMIIR dataset. Used supervised CNN training, then CAEs (Conv AEs) to learn common signal components and compared the reconstruction loss to PCA and ICA components. Used similarity-constraint encoding and cross-trial encoding (Hydra-nets) to learn "neural" components of the signal (noise removal) and then used these features for classification. A brief presentation of the work here - [ppt](http://bib.sebastianstober.de/2015-12-01_BMI.pdf).
+
 ## Datasets:-
 http://bnci-horizon-2020.eu/database/data-sets
