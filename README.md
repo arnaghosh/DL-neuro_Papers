@@ -17,5 +17,7 @@ Collection of resources dealing with confluence of DL and neuro
 
 + [Deep Feature Learning for EEG recordings](https://arxiv.org/pdf/1511.04306.pdf) - Sebastian Stober paper. Classification of listened music tracks from EEG in OpenMIIR dataset. Used supervised CNN training, then CAEs (Conv AEs) to learn common signal components and compared the reconstruction loss to PCA and ICA components. Used similarity-constraint encoding and cross-trial encoding (Hydra-nets) to learn "neural" components of the signal (noise removal) and then used these features for classification. A brief presentation of the work here - [ppt](http://bib.sebastianstober.de/2015-12-01_BMI.pdf).
 
++ [Deep Learning Human Mind for Automated Visual Classification](http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8099962) - CVPR 2017 paper. Used LSTM cells to learn time-dependent features from EEG. Features extracted from Deep CNN for the images used for regressing the EEG features. Finally the regressed features used for predicitng which image class was the subject seeing. Best classification results for 320-480 ms after stimulus presentation (the last segment of EEG). 
+
 ## Datasets:-
 http://bnci-horizon-2020.eu/database/data-sets
