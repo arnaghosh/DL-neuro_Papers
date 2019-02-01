@@ -22,6 +22,7 @@ Collection of resources dealing with confluence of DL and neuro
 + [Neural Encoding and Decoding with Deep Learning for Dynamic Natural Vision](https://academic.oup.com/cercor/article/28/12/4136/4560155)
 + [Adversarial Examples that Fool both Computer Vision and Time-Limited Humans](https://arxiv.org/abs/1802.08195)
 + [A Unified Theory of Early Visual Representations from retina to cortex through Anatomically Constrained deep CNNs](https://arxiv.org/pdf/1901.00945.pdf)
++ [Theories of Error Back-Propagation in the Brain](https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(19)30012-9)
 
 ## Datasets:-
 http://bnci-horizon-2020.eu/database/data-sets
