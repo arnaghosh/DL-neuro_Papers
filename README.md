@@ -21,7 +21,8 @@ Collection of resources dealing with confluence of DL and neuro
 
 + [Neural Encoding and Decoding with Deep Learning for Dynamic Natural Vision](https://academic.oup.com/cercor/article/28/12/4136/4560155)
 + [Adversarial Examples that Fool both Computer Vision and Time-Limited Humans](https://arxiv.org/abs/1802.08195)
-+ [A Unified Theory of Early Visual Representations from retina to cortex through Anatomically Constrained deep CNNs](https://arxiv.org/pdf/1901.00945.pdf)
++ [A Unified Theory of Early Visual Representations from retina to cortex through Anatomically Constrained deep CNNs](https://arxiv.org/pdf/1901.00945.pdf) - Surya Ganguli and Stephane Deny paper
++ [The emergence of multiple retinal cell types through efficient coding of natural movies](https://www.biorxiv.org/content/10.1101/458737v1) - Surya Ganguli and Stephane Deny paper
 + [Theories of Error Back-Propagation in the Brain](https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(19)30012-9)
 + [Towards an integration of Deep Learning and Neuroscience](https://www.frontiersin.org/articles/10.3389/fncom.2016.00094/full)
 + [Dendritic error backpropagation in deep cortical microcircuits](https://arxiv.org/pdf/1801.00062.pdf)
