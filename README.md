@@ -20,7 +20,7 @@ Collection of resources dealing with confluence of DL and neuro
 + [Deep Learning Human Mind for Automated Visual Classification](http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8099962) - CVPR 2017 paper. Used LSTM cells to learn time-dependent features from EEG. Features extracted from Deep CNN for the images used for regressing the EEG features. Finally the regressed features used for predicitng which image class was the subject seeing. Best classification results for 320-480 ms after stimulus presentation (the last segment of EEG). 
 
 + [Neural Encoding and Decoding with Deep Learning for Dynamic Natural Vision](https://academic.oup.com/cercor/article/28/12/4136/4560155)
-+ [Deep Neural Networks for Modeling Visual Perceptual Learning](http://www.jneurosci.org/content/jneuro/38/27/6028.full.pdf) - Visual Percpetion Learning framework usign DNN. Interesting paper!! Is it?
++ [Deep Neural Networks for Modeling Visual Perceptual Learning](http://www.jneurosci.org/content/jneuro/38/27/6028.full.pdf) - Visual Percpetion Learning framework usign DNN. Interesting paper!! Is it? I feel so
 + [Large-Scale, High-Resolution Comparison of the Core Visual Object Recognition Behavior of Humans, Monkeys, and State-of-the-Art Deep Artificial Neural Networks](http://www.jneurosci.org/content/jneuro/38/33/7255.full.pdf) - Rajalingham, DiCarlo paper
 + [Adversarial Examples that Fool both Computer Vision and Time-Limited Humans](https://arxiv.org/abs/1802.08195)
 + [A Unified Theory of Early Visual Representations from retina to cortex through Anatomically Constrained deep CNNs](https://arxiv.org/pdf/1901.00945.pdf) - Surya Ganguli and Stephane Deny paper
