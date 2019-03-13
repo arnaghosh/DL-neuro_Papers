@@ -30,6 +30,7 @@ Collection of resources dealing with confluence of DL and neuro
 + [Dendritic error backpropagation in deep cortical microcircuits](https://arxiv.org/pdf/1801.00062.pdf)
 + [Deep Networks for motor control functions](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4365717/)
 + [Using neuroscience to develop artificial intelligence](http://science.sciencemag.org/content/363/6428/692) - Ullman paper
++ [Dendritic solutions to the credit assignment problem](https://www.sciencedirect.com/science/article/pii/S0959438818300485) - Blake and Tim paper
 
 ## Datasets:-
 http://bnci-horizon-2020.eu/database/data-sets
