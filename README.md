@@ -19,6 +19,8 @@ Collection of resources dealing with confluence of DL and neuro
 
 + [Deep Learning Human Mind for Automated Visual Classification](http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8099962) - CVPR 2017 paper. Used LSTM cells to learn time-dependent features from EEG. Features extracted from Deep CNN for the images used for regressing the EEG features. Finally the regressed features used for predicitng which image class was the subject seeing. Best classification results for 320-480 ms after stimulus presentation (the last segment of EEG). 
 
++ [BrainNetCNN: Convolutional neural networks for brain networks; towards predicting neurodevelopment](https://www.sciencedirect.com/science/article/pii/S1053811916305237?via%3Dihub) - *write summary here*
+
 + [Neural Encoding and Decoding with Deep Learning for Dynamic Natural Vision](https://academic.oup.com/cercor/article/28/12/4136/4560155)
 + [Deep Neural Networks for Modeling Visual Perceptual Learning](http://www.jneurosci.org/content/jneuro/38/27/6028.full.pdf) - Visual Percpetion Learning framework usign DNN. Interesting paper!! Is it? I feel so
 + [Large-Scale, High-Resolution Comparison of the Core Visual Object Recognition Behavior of Humans, Monkeys, and State-of-the-Art Deep Artificial Neural Networks](http://www.jneurosci.org/content/jneuro/38/33/7255.full.pdf) - Rajalingham, DiCarlo paper
