@@ -2,8 +2,18 @@
 Collection of resources dealing with confluence of DL and neuro
 
 ## Papers:-
+
+### Parallels between CNN and human/primate visual cortex
+
 + [Activations of Deep CNN and visual pathway regions](https://www.biorxiv.org/content/biorxiv/early/2017/08/29/133694.full.pdf) - how brain regions responsible for visual pathway and the alenet layers capture "similar" features. They compared confusion matrix-type matrices between inputs from diff brain regions and alexnet layers. Uses Representation dissimalirity matrices(RDM) for each layer or probe characteristic ifentification and subsequent Representation similarity analysis(RSA) for quantification of mapping similarity between each probe and each layer of AlexNet.
 + [Convolutional neural network-based encoding and decoding of visual object recognition in space and time](http://www.sciencedirect.com/science/article/pii/S1053811917305864?via%3Dihub) - stimulus representations from CNNs can predict MEG source activity across visual system, both in space & time. Used encoding approach instead of RSA. Most regions are predicted well by low-level layers, whereas later in time, most regions are predicted well by high-level layers. Decoding results for some subjects are "above-chance".
++ [Large-Scale, High-Resolution Comparison of the Core Visual Object Recognition Behavior of Humans, Monkeys, and State-of-the-Art Deep Artificial Neural Networks](http://www.jneurosci.org/content/jneuro/38/33/7255.full.pdf) - Rajalingham, DiCarlo paper
++ [Adversarial Examples that Fool both Computer Vision and Time-Limited Humans](https://arxiv.org/abs/1802.08195)
++ [A Unified Theory of Early Visual Representations from retina to cortex through Anatomically Constrained deep CNNs](https://arxiv.org/pdf/1901.00945.pdf) - Surya Ganguli and Stephane Deny paper
+
++ [The emergence of multiple retinal cell types through efficient coding of natural movies](https://www.biorxiv.org/content/10.1101/458737v1) - Surya Ganguli and Stephane Deny paper
+
+### Deep Learning to classify neural decoding
 
 + [A novel deep learning approach for classification of EEG motor imagery signals](http://iopscience.iop.org/article/10.1088/1741-2560/14/1/016003/meta;jsessionid=47DB0AD1A3CDEDCA4054F70D1C3010AD.c2.iopscience.cld.iop.org) - Used a CNN for BCI competition dataset III and IV and got good accuracy. Greedily trained CNN layer-by-layer to achieve better accuracy.
 
@@ -11,7 +21,7 @@ Collection of resources dealing with confluence of DL and neuro
 
 + [Learning Representation from EEG with Deep RCNN](https://arxiv.org/pdf/1511.06448.pdf) - ICLR 2016 paper. Projet EEG electrode position from 3D space to 2D space and then form images with red = alpha channel activity, green = beta channel activity, blue = gamma channel activity. RCNN on this data to classify coginitive-load during task. DeconvNet to visualize filters learnt.
 
-+ [Learning Robust Features using Deep Learning for Automatic Seizure Detection](https://arxiv.org/pdf/1608.00220.pdf) - Joelle Pineau paper. Uses the 3D to 2D projection of electrodes and then RCNN to predict seizure. Occluded image analysis to look at regions of image which affect decision of network. 
++ [Learning Robust Features using Deep Learning for Automatic Seizure Detection](https://arxiv.org/pdf/1608.00220.pdf) - Uses the 3D to 2D projection of electrodes and then RCNN to predict seizure. Occluded image analysis to look at regions of image which affect decision of network. 
 
 + [Joint Optimization of Algorithmic Suites for EEG Analysis](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6944253) - EMBC 2014 paper. Uses backprop to jointly optimize spatial projection matrix (initialized with regular CSP), temporal projection matrix and a classifier. Results on BCI II and III datasets. 
 
@@ -22,11 +32,10 @@ Collection of resources dealing with confluence of DL and neuro
 + [BrainNetCNN: Convolutional neural networks for brain networks; towards predicting neurodevelopment](https://www.sciencedirect.com/science/article/pii/S1053811916305237?via%3Dihub) - *write summary here*
 
 + [Neural Encoding and Decoding with Deep Learning for Dynamic Natural Vision](https://academic.oup.com/cercor/article/28/12/4136/4560155)
-+ [Deep Neural Networks for Modeling Visual Perceptual Learning](http://www.jneurosci.org/content/jneuro/38/27/6028.full.pdf) - Visual Percpetion Learning framework usign DNN. Interesting paper!! Is it? I feel so
-+ [Large-Scale, High-Resolution Comparison of the Core Visual Object Recognition Behavior of Humans, Monkeys, and State-of-the-Art Deep Artificial Neural Networks](http://www.jneurosci.org/content/jneuro/38/33/7255.full.pdf) - Rajalingham, DiCarlo paper
-+ [Adversarial Examples that Fool both Computer Vision and Time-Limited Humans](https://arxiv.org/abs/1802.08195)
-+ [A Unified Theory of Early Visual Representations from retina to cortex through Anatomically Constrained deep CNNs](https://arxiv.org/pdf/1901.00945.pdf) - Surya Ganguli and Stephane Deny paper
-+ [The emergence of multiple retinal cell types through efficient coding of natural movies](https://www.biorxiv.org/content/10.1101/458737v1) - Surya Ganguli and Stephane Deny paper
++ [Deep Neural Networks for Modeling Visual Perceptual Learning](http://www.jneurosci.org/content/jneuro/38/27/6028.full.pdf) - Visual Percpetion Learning framework usign DNN. Interesting paper!!
+
+### Credit assignment in the brain and deep networks - using neuroscience knowledge to improve DL
+
 + [Theories of Error Back-Propagation in the Brain](https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(19)30012-9)
 + [Towards an integration of Deep Learning and Neuroscience](https://www.frontiersin.org/articles/10.3389/fncom.2016.00094/full)
 + [Dendritic error backpropagation in deep cortical microcircuits](https://arxiv.org/pdf/1801.00062.pdf)
