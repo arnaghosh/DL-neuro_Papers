@@ -42,6 +42,7 @@ Collection of resources dealing with confluence of DL and neuro
 + [Deep Networks for motor control functions](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4365717/)
 + [Using neuroscience to develop artificial intelligence](http://science.sciencemag.org/content/363/6428/692) - Ullman paper
 + [Dendritic solutions to the credit assignment problem](https://www.sciencedirect.com/science/article/pii/S0959438818300485) - Blake and Tim paper
++ [A Critique of Pure Learning: What Artificial Neural Networks can Learn from Animal Brains](https://www.biorxiv.org/content/biorxiv/early/2019/03/20/582643.full.pdf)
 
 ## Datasets:-
 http://bnci-horizon-2020.eu/database/data-sets
